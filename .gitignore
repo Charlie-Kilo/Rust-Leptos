@@ -1,0 +1,16 @@
+# Ignore compiled binary files
+/target/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore build artifacts
+Cargo.lock
+
+# Ignore generated files
+/dist/
+/leptos-project*.wasm
+/leptos-project*.js
